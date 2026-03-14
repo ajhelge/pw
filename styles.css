@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(183, 212, 241);
+    padding: 0;
+    margin: 0;
+}
+.content{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr auto 1fr;
+    row-gap: 1px;
+    min-width: 840px;
+    max-width: 1080px;
+}
+.header{
+    background-color: azure;
+    padding: 0 10px 0 10px;
+}
+.page{
+    background-color: azure;
+    padding: 0 10px 0 10px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: azure;
+    padding: 0 10px 0 10px;
+}
