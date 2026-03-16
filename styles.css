@@ -18,8 +18,16 @@ body{
     max-width: 1080px;
 }
 .header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     background-color: azure;
     padding: 0 10px 0 10px;
+}
+.header-icon{
+    border-radius: 50%;
+    margin: 5px 0 5px 5px;
+    justify-self: end;
 }
 .nav-bar{
     display: flex;
