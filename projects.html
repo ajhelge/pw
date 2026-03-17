@@ -15,8 +15,8 @@
         </div>
       </div>
       <div class="nav-bar">
-        <button class="nav-button" onclick="getProjects()">Projects</button>
-        <button class="nav-button" onclick="getIndex()">Home</button>
+        <button id="projects-button" class="nav-button" onclick="getProjects()" onmouseenter="highlight(`${id}`)" onmouseleave="unHighlight(`${id}`)">Projects</button>
+        <button id="home-button" class="nav-button" onclick="getIndex()" onmouseenter="highlight(`${id}`)" onmouseleave="unHighlight(`${id}`)">Home</button>
       </div>
       <div id="page" class="page">
         <h3>Projects</h3>
@@ -44,7 +44,7 @@
         </div>
       </div>
       <div class="footer">
-        <h2>Last updated 3/16/2026</h2>
+        <h2>Last updated 3/17/2026</h2>
       </div>
     </div>
     <script src="script.js"></script>
