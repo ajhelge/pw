@@ -15,8 +15,8 @@
         </div>
       </div>
       <div class="nav-bar">
-        <button id="projects-button" class="nav-button" onclick="getProjects()" onmouseenter="highlight(`${id}`)" onmouseleave="unHighlight(`${id}`)">Projects</button>
-        <button id="home-button" class="nav-button" onclick="getIndex()" onmouseenter="highlight(`${id}`)" onmouseleave="unHighlight(`${id}`)">Home</button>
+        <button id="projects" class="nav-button" onclick="getPage(`${id}`)" onmouseenter="highlight(`${id}`)" onmouseleave="unHighlight(`${id}`)">Projects</button>
+        <button id="index" class="nav-button" onclick="getPage(`${id}`)" onmouseenter="highlight(`${id}`)" onmouseleave="unHighlight(`${id}`)">Home</button>
       </div>
       <div id="page" class="page">
         <h3>Projects</h3>
@@ -26,20 +26,14 @@
           Dolore ipsa, fugit maxime maiores veniam sint iste harum modi ea.
         </p>
         <div class="card-container">
-          <div id="card-one" class="project-card" onmouseenter="highlight(`${id}`)" onmouseleave="unHighlight(`${id}`)">
-              
+          <div id="card-one" class="project-card round" onmouseenter="highlight(`${id}`)" onmouseleave="unHighlight(`${id}`)">
+              <img class="card-img round" src="assets/images/S6_pixel.png" width="300px" height="300px">
           </div>
-          <div id="card-two" class="project-card" onmouseenter="highlight(`${id}`)" onmouseleave="unHighlight(`${id}`)">
-              
+          <div id="card-two" class="project-card round" onmouseenter="highlight(`${id}`)" onmouseleave="unHighlight(`${id}`)">
+              <img class="card-img round" src="assets/images/F250_pixel.png" width="300px" height="300px">
           </div>
-          <div id="card-three" class="project-card" onmouseenter="highlight(`${id}`)" onmouseleave="unHighlight(`${id}`)">
-              
-          </div>
-          <div id="card-four" class="project-card" onmouseenter="highlight(`${id}`)" onmouseleave="unHighlight(`${id}`)">
-              
-          </div>
-          <div id="card-five" class="project-card" onmouseenter="highlight(`${id}`)" onmouseleave="unHighlight(`${id}`)">
-              
+          <div id="card-three" class="project-card round" onmouseenter="highlight(`${id}`)" onmouseleave="unHighlight(`${id}`)">
+              <img class="card-img round" src="assets/images/K1500_Pixel.png" width="300px" height="300px">
           </div>
         </div>
       </div>
