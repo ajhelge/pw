@@ -1,8 +1,9 @@
 :root{
-    --prime-bg-color: steelblue;
+    --prime-bg-color: rgb(50, 50, 50);
     --prime-pg-color: white;
     --prime-btn-color: white;
-    --prime-card-color: steelblue;
+    --prime-card-color: rgb(50,50,50);
+    --prime-border-color: rgb(0, 179, 138);
 }
 * {
     margin: 0;
@@ -75,5 +76,8 @@ body{
     width: 300px;
     height: 300px;
     background-color: var(--prime-card-color);
+    border: 4px solid var(--prime-border-color);
+}
+.round{
     border-radius: 5%;
 }
